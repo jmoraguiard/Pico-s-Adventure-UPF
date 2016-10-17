@@ -1,0 +1,25 @@
+EVENT; TIME; ARG1; ARG2
+Start; 0; 2014-6-3 13:35:1; 0
+Fruit_Fall; 39.2529; 1; 2
+Polaroids_Forced; 50.215; 1; 0
+Fruit_Mouse_Clicked; 80.7001; 0; 0
+Fruit_Fall; 80.7001; 2; 3
+Pico_Points_1; 82.418; 2; 3
+Pico_Points_1; 97.9989; 2; 2
+Polaroids_Forced; 100.082; 2; 0
+Fruit_Mouse_Clicked; 112.543; 0; 0
+Fruit_Mouse_Clicked; 113.224; 0; 0
+Fruit_Fall; 113.224; 3; 3
+Bird_Scared; 115.31; 0; 0
+Polaroids_Forced; 118.895; 3; 0
+Fruit_Mouse_Clicked; 132.291; 0; 0
+Fruit_Fall; 132.291; 4; 3
+Bird_Scared; 135.575; 0; 0
+Bird_Scared_Keyboard; 135.575; 4; 0
+Polaroids_Forced; 141.862; 4; 0
+Desactivated_Bird; 154.82; 5; 0
+Bird_Scared; 155.588; 0; 0
+Bird_Scared_Keyboard; 155.588; 5; 0
+User_Bye; 156.289; 5; 0
+User_Bye; 168.798; 5; 0
+End; 184.865; 2014-6-3 13:38:7; 0

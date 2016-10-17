@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<fruits>
+	<fruit>
+		<model>fresa</model>
+		<position x="-3.25" y="3.2" z="-2.8" />
+		<scale x="1" y="1" z="1" />
+		<rotation x="0" y="0" z="0" />
+		<effect type="color">
+			<color r="1.0" g="0.0" b="0.0" />
+		</effect>
+		<collision>
+			<position x="0.0" y="0.2" z="0.0" />
+			<radius> 0.4 </radius>
+		</collision>
+	</fruit>
+	<fruit>
+		<model>manzana</model>
+		<position x="-1.25" y="3.1" z="-3.0" />
+		<scale x="1" y="1" z="1" />
+		<rotation x="0" y="0" z="0" />
+		<effect type="color">
+			<color r="0.2" g="0.9" b="0.2" />
+		</effect>
+		<collision>
+			<position x="0.0" y="0.2" z="0.0" />
+			<radius> 0.4 </radius>
+		</collision>
+	</fruit>
+	<fruit>
+		<model>zanahoria</model>
+		<position x="1.75" y="3.2" z="-3.2" />
+		<scale x="1" y="1" z="1" />
+		<rotation x="0" y="0" z="0" />
+		<effect type="color">
+			<color r="1.0" g="0.5" b="0.0" />
+		</effect>
+		<collision>
+			<position x="0.0" y="0.4" z="0.0" />
+			<radius> 0.5 </radius>
+		</collision>
+	</fruit>
+	<fruit>
+		<model>arandanos</model>
+		<position x="3.25" y="3.1" z="-3.0" />
+		<scale x="1" y="1" z="1" />
+		<rotation x="0" y="0" z="0" />
+		<effect type="color">
+			<color r="0.0" g="0.7" b="1.0" />
+		</effect>
+		<collision>
+			<position x="0.0" y="0.4" z="0.0" />
+			<radius> 0.5 </radius>
+		</collision>
+	</fruit>
+</fruits>

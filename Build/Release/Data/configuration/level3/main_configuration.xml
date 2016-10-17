@@ -1,0 +1,4 @@
+<configuration>
+	<greeting_time> 5 </greeting_time>
+	<fading_time> 9 </fading_time>
+</configuration>

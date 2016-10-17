@@ -1,0 +1,5 @@
+<configuration>
+	<intro_time> 22 </intro_time>
+	<play_time> 360 </play_time>
+	<fade_time> 7 </fade_time>
+</configuration>

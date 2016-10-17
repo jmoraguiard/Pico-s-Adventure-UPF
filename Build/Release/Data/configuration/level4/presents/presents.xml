@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<presents>
+	<present>
+		<model>moneda</model>
+		<position x="4.25" y="0.0" z="-3.0" />
+		<scale x="0.5" y="0.5" z="0.5" />
+		<rotation x="0" y="0" z="0" />
+	</present>
+	<present>
+		<model>tarta</model>
+		<position x="3.75" y="0.0" z="-2.5" />
+		<scale x="1" y="1" z="1" />
+		<rotation x="0" y="0" z="0" />
+	</present>
+	<present>
+		<model>alfin</model>
+		<position x="3" y="0.1" z="-3.5" />
+		<scale x="1.1" y="1.1" z="1.1" />
+		<rotation x="1.57" y="0" z="0" />
+	</present>
+	<present>
+		<model>diamante</model>
+		<position x="3.25" y="0.1" z="-3.25" />
+		<scale x="0.5" y="0.5" z="0.5" />
+		<rotation x="0" y="0" z="0" />
+	</present>
+	<present>
+		<model>diplodocus</model>
+		<position x="2.75" y="0.1" z="-3.25" />
+		<scale x="1.2" y="1.2" z="1.2" />
+		<rotation x="1.57" y="0" z="0" />
+	</present>
+	<present>
+		<model>banana</model>
+		<position x="3.25" y="0" z="-2.25" />
+		<scale x="1" y="1" z="1" />
+		<rotation x="0" y="0" z="0" />
+	</present>
+	<present>
+		<model>perro</model>
+		<position x="3.75" y="0.2" z="-3.15" />
+		<scale x="1.2" y="1.2" z="1.2" />
+		<rotation x="1.57" y="0" z="0" />
+	</present>
+	<present>
+		<model>gato</model>
+		<position x="4.5" y="0.2" z="-2.75" />
+		<scale x="1.2" y="1.2" z="1.2" />
+		<rotation x="1.57" y="0" z="0" />
+	</present>
+	<present>
+		<model>martillo</model>
+		<position x="3.75" y="0.0" z="-3.5" />
+		<scale x="0.0192819" y="0.0192819" z="0.0192819" />
+		<rotation x="0" y="3.92699" z="0" />
+	</present>
+	<present>
+		<model>navepascal</model>
+		<position x="3.25" y="0.3" z="-2.75" />
+		<scale x="0.006" y="0.006" z="0.006" />
+		<rotation x="0" y="0" z="0" />
+	</present>
+	<present>
+		<model>tren</model>
+		<position x="4.25" y="0.2" z="-2.25" />
+		<scale x="0.12" y="0.12" z="0.12" />
+		<rotation x="0" y="1.57" z="0" />
+	</present>
+	<present>
+		<model>llaveInglesa</model>
+		<position x="2.75" y="0" z="-3.5" />
+		<scale x="0.0202756" y="0.0202756" z="0.0202756" />
+		<rotation x="0" y="0" z="0" />
+	</present>
+	<present>
+		<model>estrella</model>
+		<position x="4.5" y="0.6" z="-1.75" />
+		<scale x="0.0133028" y="0.0133028" z="0.0133028" />
+		<rotation x="0" y="0" z="0" />
+	</present>
+	<present>
+		<model>t-cohete</model>
+		<position x="3.75" y="0" z="-3.75" />
+		<scale x="1.61051" y="1.61051" z="1.61051" />
+		<rotation x="0" y="0" z="0" />
+	</present>
+	<present>
+		<model>t-son2</model>
+		<position x="2.25" y="0" z="-3.75" />
+		<scale x="1.92923" y="1.92923" z="1.92923" />
+		<rotation x="0" y="6.08684" z="0" />
+	</present>
+</presents>

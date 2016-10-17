@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<fruits>
+	<fruit>
+		<model>carne</model>
+		<position x="-3.25" y="3.2" z="-2.8" />
+		<scale x="1" y="1" z="1" />
+		<rotation x="0" y="0" z="0" />
+		<effect type="texture">
+			<texture>d-cuerpoarmadura</texture>
+		</effect>
+		<collision>
+			<position x="0.0" y="0.4" z="0.0" />
+			<radius> 0.6 </radius>
+		</collision>
+	</fruit>
+	<fruit>
+		<model>galleta</model>
+		<position x="-1.25" y="3.1" z="-3.0" />
+		<scale x="1" y="1" z="1" />
+		<rotation x="0" y="0" z="0" />
+		<effect type="texture">
+			<texture>d-cuerpoestrellita</texture>
+		</effect>
+		<collision>
+			<position x="0.0" y="0.2" z="0.0" />
+			<radius> 0.4 </radius>
+		</collision>
+	</fruit>
+	<fruit>
+		<model>guindilla</model>
+		<position x="1.75" y="3.2" z="-3.2" />
+		<scale x="1" y="1" z="1" />
+		<rotation x="0" y="0" z="0" />
+		<effect type="texture">
+			<texture>d-cuerpofuego</texture>
+		</effect>
+		<collision>
+			<position x="0.0" y="0.4" z="0.0" />
+			<radius> 0.4 </radius>
+		</collision>
+	</fruit>
+	<fruit>
+		<model>polo</model>
+		<position x="3.25" y="2.8" z="-2.8" />
+		<scale x="1" y="1" z="1" />
+		<rotation x="0" y="0" z="0" />
+		<effect type="texture">
+			<texture>d-cuerpohielo</texture>
+		</effect>
+		<collision>
+			<position x="0.0" y="0.4" z="0.0" />
+			<radius> 0.4 </radius>
+		</collision>
+	</fruit>
+</fruits>

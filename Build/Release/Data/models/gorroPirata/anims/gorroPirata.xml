@@ -1,0 +1,16 @@
+<gorroPirata>
+	<anim name="backTree"/>
+	<anim name="idle"/>
+	<anim name="walk"/>
+	<anim name="celebration"/>
+	<anim name="DanceAss"/>
+	<anim name="hideBush"/>
+	<anim name="unhideBush"/>
+	<anim name="eat"/>
+	<anim name="negation"/>
+	<anim name="angry"/>
+	<anim name="point_left"/>
+	<anim name="point_right"/>
+	<anim name="jump"/>
+	<anim name="hola"/>
+</gorroPirata>

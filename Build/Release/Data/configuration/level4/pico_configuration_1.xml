@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<pico>
+	<body>
+		<model>miniBossDelgadoCuerpo</model>
+		<texture>d-cuerpoarmadura</texture>
+	</body>
+	<tips>
+		<model>miniBossDelgadoExtremidades</model>
+		<color r="1" g="0.5" b="0" />
+	</tips>
+	<hat>gorroCumple</hat>
+</pico>

@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B4F7C624-EF4E-4BC2-AC67-C141BCA27402}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>PicosAdventureRedux</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(KINECT_TOOLKIT_DIR)inc;$(KINECTSDK10_DIR)inc;$(DXSDK_DIR)Include;$(CAL3D)src;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)Lib\x86;$(KINECTSDK10_DIR)lib\x86;$(KINECT_TOOLKIT_DIR)lib\x86;$(CAL3D)bin\Debug;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)Build\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Temp\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(KINECT_TOOLKIT_DIR)inc;$(KINECTSDK10_DIR)inc;$(DXSDK_DIR)Include;$(CAL3D)src;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)Lib\x86;$(KINECTSDK10_DIR)lib\x86;$(KINECT_TOOLKIT_DIR)lib\x86;$(CAL3D)bin\Release;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)Build\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Temp\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Kinect10.lib;KinectBackgroundRemoval180_32.lib;cal3d_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>Kinect10.lib;KinectBackgroundRemoval180_32.lib;cal3d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Application\applicationManager.h" />
+    <ClInclude Include="Application\applicationState.h" />
+    <ClInclude Include="Application\inputManager.h" />
+    <ClInclude Include="Application\kinectClass.h" />
+    <ClInclude Include="Application\systemClass.h" />
+    <ClInclude Include="Engine\AnimatedObject3D.h" />
+    <ClInclude Include="Engine\Object3D.h" />
+    <ClInclude Include="Engine\Object3DFactory.h" />
+    <ClInclude Include="Engine\particleSystem.h" />
+    <ClInclude Include="Engine\sphereCollision.h" />
+    <ClInclude Include="Engine\StaticObject3D.h" />
+    <ClInclude Include="Game\birdClass.h" />
+    <ClInclude Include="Game\firstScreenState.h" />
+    <ClInclude Include="Game\fourthScreenState.h" />
+    <ClInclude Include="Game\friendSpaceShipClass.h" />
+    <ClInclude Include="Game\fruitClass.h" />
+    <ClInclude Include="Game\introScreenState.h" />
+    <ClInclude Include="Game\kinectLogClass.h" />
+    <ClInclude Include="Game\logClass.h" />
+    <ClInclude Include="Game\picoFirstClass.h" />
+    <ClInclude Include="Game\picoFourthClass.h" />
+    <ClInclude Include="Game\picoSecondClass.h" />
+    <ClInclude Include="Game\picoThirdClass.h" />
+    <ClInclude Include="Game\pieceClass.h" />
+    <ClInclude Include="Game\platformClass.h" />
+    <ClInclude Include="Game\presentClass.h" />
+    <ClInclude Include="Game\secondScreenState.h" />
+    <ClInclude Include="Game\soundFirstClass.h" />
+    <ClInclude Include="Game\soundFourthClass.h" />
+    <ClInclude Include="Game\soundSecondClass.h" />
+    <ClInclude Include="Game\soundThirdClass.h" />
+    <ClInclude Include="Game\spaceShipClass.h" />
+    <ClInclude Include="Game\spriteAnimationClass.h" />
+    <ClInclude Include="Game\starClass.h" />
+    <ClInclude Include="Game\thirdScreenState.h" />
+    <ClInclude Include="Game\toyClass.h" />
+    <ClInclude Include="Graphics\animatedCal3DModelClass.h" />
+    <ClInclude Include="Graphics\Cal3DmodelClass.h" />
+    <ClInclude Include="Graphics\cameraClass.h" />
+    <ClInclude Include="Graphics\colorShader3D.h" />
+    <ClInclude Include="Graphics\diffuseShader3D.h" />
+    <ClInclude Include="Graphics\fontClass.h" />
+    <ClInclude Include="Graphics\graphicsManager.h" />
+    <ClInclude Include="Graphics\imageClass.h" />
+    <ClInclude Include="Graphics\lightClass.h" />
+    <ClInclude Include="Graphics\modelClass.h" />
+    <ClInclude Include="Graphics\multitextureShader3D.h" />
+    <ClInclude Include="Graphics\OBJModelClass.h" />
+    <ClInclude Include="Graphics\pointlightDiffuseShader3D.h" />
+    <ClInclude Include="Graphics\shader2DClass.h" />
+    <ClInclude Include="Graphics\shader3DClass.h" />
+    <ClInclude Include="Graphics\shader3DFactory.h" />
+    <ClInclude Include="Graphics\staticCal3DModelClass.h" />
+    <ClInclude Include="Graphics\textureArrayClass.h" />
+    <ClInclude Include="Graphics\textureClass.h" />
+    <ClInclude Include="GUI\GUIButton.h" />
+    <ClInclude Include="GUI\GUIFrame.h" />
+    <ClInclude Include="GUI\GUIManager.h" />
+    <ClInclude Include="Math\pointClass.h" />
+    <ClInclude Include="Math\vectorClass.h" />
+    <ClInclude Include="Utils\clockClass.h" />
+    <ClInclude Include="Utils\listenerClass.h" />
+    <ClInclude Include="Utils\notifierClass.h" />
+    <ClInclude Include="Utils\pugiconfig.h" />
+    <ClInclude Include="Utils\pugixml.h" />
+    <ClInclude Include="Utils\textClass.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application\applicationManager.cpp" />
+    <ClCompile Include="Application\applicationState.cpp" />
+    <ClCompile Include="Application\inputManager.cpp" />
+    <ClCompile Include="Application\kinectClass.cpp" />
+    <ClCompile Include="Application\systemClass.cpp" />
+    <ClCompile Include="Engine\AnimatedObject3D.cpp" />
+    <ClCompile Include="Engine\Object3D.cpp" />
+    <ClCompile Include="Engine\Object3DFactory.cpp" />
+    <ClCompile Include="Engine\particleSystem.cpp" />
+    <ClCompile Include="Engine\sphereCollision.cpp" />
+    <ClCompile Include="Engine\StaticObject3D.cpp" />
+    <ClCompile Include="Game\birdClass.cpp" />
+    <ClCompile Include="Game\firstScreenState.cpp" />
+    <ClCompile Include="Game\fourthScreenState.cpp" />
+    <ClCompile Include="Game\friendSpaceShipClass.cpp" />
+    <ClCompile Include="Game\fruitClass.cpp" />
+    <ClCompile Include="Game\introScreenState.cpp" />
+    <ClCompile Include="Game\kinectLogClass.cpp" />
+    <ClCompile Include="Game\logClass.cpp" />
+    <ClCompile Include="Game\picoFirstClass.cpp" />
+    <ClCompile Include="Game\picoFourthClass.cpp" />
+    <ClCompile Include="Game\picoSecondClass.cpp" />
+    <ClCompile Include="Game\picoThirdClass.cpp" />
+    <ClCompile Include="Game\pieceClass.cpp" />
+    <ClCompile Include="Game\platformClass.cpp" />
+    <ClCompile Include="Game\presentClass.cpp" />
+    <ClCompile Include="Game\secondScreenState.cpp" />
+    <ClCompile Include="Game\soundFirstClass.cpp" />
+    <ClCompile Include="Game\soundFourthClass.cpp" />
+    <ClCompile Include="Game\soundSecondClass.cpp" />
+    <ClCompile Include="Game\soundThirdClass.cpp" />
+    <ClCompile Include="Game\spaceShipClass.cpp" />
+    <ClCompile Include="Game\spriteAnimationClass.cpp" />
+    <ClCompile Include="Game\starClass.cpp" />
+    <ClCompile Include="Game\thirdScreenState.cpp" />
+    <ClCompile Include="Game\toyClass.cpp" />
+    <ClCompile Include="Graphics\animatedCal3DModelClass.cpp" />
+    <ClCompile Include="Graphics\Cal3DmodelClass.cpp" />
+    <ClCompile Include="Graphics\cameraClass.cpp" />
+    <ClCompile Include="Graphics\colorShader3D.cpp" />
+    <ClCompile Include="Graphics\diffuseShader3D.cpp" />
+    <ClCompile Include="Graphics\fontClass.cpp" />
+    <ClCompile Include="Graphics\graphicsmanager.cpp" />
+    <ClCompile Include="Graphics\imageClass.cpp" />
+    <ClCompile Include="Graphics\lightClass.cpp" />
+    <ClCompile Include="Graphics\modelClass.cpp" />
+    <ClCompile Include="Graphics\multitextureShader3D.cpp" />
+    <ClCompile Include="Graphics\OBJModelClass.cpp" />
+    <ClCompile Include="Graphics\pointlightDiffuseShader3D.cpp" />
+    <ClCompile Include="Graphics\shader2DClass.cpp" />
+    <ClCompile Include="Graphics\shader3DClass.cpp" />
+    <ClCompile Include="Graphics\shader3DFactory.cpp" />
+    <ClCompile Include="Graphics\staticCal3DModelClass.cpp" />
+    <ClCompile Include="Graphics\textureArrayClass.cpp" />
+    <ClCompile Include="Graphics\textureClass.cpp" />
+    <ClCompile Include="GUI\GUIButton.cpp" />
+    <ClCompile Include="GUI\GUIFrame.cpp" />
+    <ClCompile Include="GUI\GUIManager.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Math\pointClass.cpp" />
+    <ClCompile Include="Math\vectorClass.cpp" />
+    <ClCompile Include="Utils\clockClass.cpp" />
+    <ClCompile Include="Utils\pugixml.cpp" />
+    <ClCompile Include="Utils\textClass.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

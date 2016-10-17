@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<pico>
+	<body>
+		<model>miniBossCuerpo</model>
+		<texture></texture>
+	</body>
+	<tips>
+		<model>miniBossExtremidades</model>
+		<color r="1" g="1" b="1" />
+	</tips>
+	<hat>gorroFrutas</hat>
+</pico>

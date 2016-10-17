@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<polaroids>
+	<polaroid>
+		<image>pico_gordo</image>
+		<position x="-0.475" y="0.325"/>
+		<size x="0.2" y="0.35"/>
+	</polaroid>
+	<polaroid>
+		<image>pico_delgado</image>
+		<position x="-0.225" y="0.325"/>
+		<size x="0.2" y="0.35"/>
+	</polaroid>
+	<polaroid>
+		<image>pico_normal</image>
+		<position x="0.275" y="0.325"/>
+		<size x="0.2" y="0.35"/>
+	</polaroid>
+</polaroids>

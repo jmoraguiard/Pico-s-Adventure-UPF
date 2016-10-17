@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<terreno_1>
+	<model>terreno</model>
+	<position x="0" y="-7.45058e-008" z="5" />
+	<scale x="1.05666" y="1.05666" z="1.05666" />
+	<rotation x="0" y="3.14159" z="0" />
+</terreno_1>

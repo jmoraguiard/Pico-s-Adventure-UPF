@@ -1,0 +1,495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Application">
+      <UniqueIdentifier>{4f999277-a393-4657-8ac0-0cfda0c18d30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{3283f683-c9d4-4bbb-ab27-7b7bcddf9cb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Objects">
+      <UniqueIdentifier>{6af10593-26a6-47c6-b108-02f04e0a1c27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{b9ececdb-44d7-4547-8294-6480aec04fcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\FirstLevel">
+      <UniqueIdentifier>{ee57198b-a7c1-4f35-b1e1-ffc8733d971b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\SecondLevel">
+      <UniqueIdentifier>{4ca0386c-e7b3-4aa0-9b33-20e4c7b9707a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\ThirdLevel">
+      <UniqueIdentifier>{c9fa3906-344f-47de-926f-0c210d8539e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\FourthLevel">
+      <UniqueIdentifier>{e8659090-2ec9-4611-9495-5b6509a0acf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics">
+      <UniqueIdentifier>{62bf16f6-1f19-4bde-a59b-ce09555000f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Model">
+      <UniqueIdentifier>{fe789119-4cd3-4795-9481-ba53bd3aa544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Shaders">
+      <UniqueIdentifier>{06bdaa75-d73f-4cdf-94fd-ace22da1be39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI">
+      <UniqueIdentifier>{0334e45f-7afa-4ec3-b24f-8fedd5478eb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Math">
+      <UniqueIdentifier>{ca062f6e-176c-4461-8260-49b7066a5d87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{96e800b2-68bc-47e8-9c8d-8c20736bb463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Application">
+      <UniqueIdentifier>{7e5bc59c-3d1e-425b-a4e5-500da124c7ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{49343e69-93e7-4bcf-8989-052651ff1127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Objects">
+      <UniqueIdentifier>{0a747133-e23a-4c81-904a-700bf6c37864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{0505fc63-edda-4287-b986-38a42e593cb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\FirstLevel">
+      <UniqueIdentifier>{76143dfc-9c26-43d6-8652-ab8eca2aa88c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\SecondLevel">
+      <UniqueIdentifier>{d431b10a-4033-4587-8cd0-a0e769677726}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\ThirdLevel">
+      <UniqueIdentifier>{97065832-1d6f-4360-9e4f-b35d55bd6f04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\FourthLevel">
+      <UniqueIdentifier>{688fa387-c475-4194-91e4-129287bcc0a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{2be14d9b-2e64-4fad-9766-67cf7464cd52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Model">
+      <UniqueIdentifier>{075755f2-919b-4fce-a270-39fdfcedf6a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Shaders">
+      <UniqueIdentifier>{d7057a75-7161-4399-a8bd-7367b22cb7ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI">
+      <UniqueIdentifier>{933101fd-a85f-46c9-8146-bf9651a425dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Math">
+      <UniqueIdentifier>{84db0515-fe23-4d65-83cf-5985593b3330}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{4f80e325-2269-4455-80b4-815364e2ab80}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application\applicationManager.h">
+      <Filter>Header Files\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\applicationState.h">
+      <Filter>Header Files\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\inputManager.h">
+      <Filter>Header Files\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\kinectClass.h">
+      <Filter>Header Files\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\systemClass.h">
+      <Filter>Header Files\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\particleSystem.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\sphereCollision.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Object3D.h">
+      <Filter>Header Files\Engine\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\AnimatedObject3D.h">
+      <Filter>Header Files\Engine\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Object3DFactory.h">
+      <Filter>Header Files\Engine\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\StaticObject3D.h">
+      <Filter>Header Files\Engine\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\kinectLogClass.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\logClass.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\spaceShipClass.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\spriteAnimationClass.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\birdClass.h">
+      <Filter>Header Files\Game\FirstLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\fruitClass.h">
+      <Filter>Header Files\Game\FirstLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\firstScreenState.h">
+      <Filter>Header Files\Game\FirstLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\soundFirstClass.h">
+      <Filter>Header Files\Game\FirstLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\picoFirstClass.h">
+      <Filter>Header Files\Game\FirstLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\fourthScreenState.h">
+      <Filter>Header Files\Game\FourthLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\friendSpaceShipClass.h">
+      <Filter>Header Files\Game\ThirdLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\picoFourthClass.h">
+      <Filter>Header Files\Game\FourthLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\picoSecondClass.h">
+      <Filter>Header Files\Game\SecondLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\picoThirdClass.h">
+      <Filter>Header Files\Game\ThirdLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\platformClass.h">
+      <Filter>Header Files\Game\FourthLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\pieceClass.h">
+      <Filter>Header Files\Game\SecondLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\presentClass.h">
+      <Filter>Header Files\Game\FourthLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\secondScreenState.h">
+      <Filter>Header Files\Game\SecondLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\soundFourthClass.h">
+      <Filter>Header Files\Game\FourthLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\soundSecondClass.h">
+      <Filter>Header Files\Game\SecondLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\soundThirdClass.h">
+      <Filter>Header Files\Game\ThirdLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\starClass.h">
+      <Filter>Header Files\Game\SecondLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\thirdScreenState.h">
+      <Filter>Header Files\Game\ThirdLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\toyClass.h">
+      <Filter>Header Files\Game\FourthLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\cameraClass.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\fontClass.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\graphicsManager.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\imageClass.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\lightClass.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\textureArrayClass.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\textureClass.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\animatedCal3DModelClass.h">
+      <Filter>Header Files\Graphics\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Cal3DmodelClass.h">
+      <Filter>Header Files\Graphics\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\colorShader3D.h">
+      <Filter>Header Files\Graphics\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\diffuseShader3D.h">
+      <Filter>Header Files\Graphics\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\modelClass.h">
+      <Filter>Header Files\Graphics\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\multitextureShader3D.h">
+      <Filter>Header Files\Graphics\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\pointlightDiffuseShader3D.h">
+      <Filter>Header Files\Graphics\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\OBJModelClass.h">
+      <Filter>Header Files\Graphics\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\shader3DFactory.h">
+      <Filter>Header Files\Graphics\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\shader2DClass.h">
+      <Filter>Header Files\Graphics\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\shader3DClass.h">
+      <Filter>Header Files\Graphics\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\staticCal3DModelClass.h">
+      <Filter>Header Files\Graphics\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\GUIButton.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\GUIFrame.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\GUIManager.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\pointClass.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\vectorClass.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\clockClass.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\listenerClass.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\notifierClass.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\pugiconfig.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\pugixml.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\textClass.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\introScreenState.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application\applicationManager.cpp">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\applicationState.cpp">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\inputManager.cpp">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\kinectClass.cpp">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\systemClass.cpp">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\particleSystem.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\sphereCollision.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\AnimatedObject3D.cpp">
+      <Filter>Source Files\Engine\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Object3D.cpp">
+      <Filter>Source Files\Engine\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Object3DFactory.cpp">
+      <Filter>Source Files\Engine\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\StaticObject3D.cpp">
+      <Filter>Source Files\Engine\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\kinectLogClass.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\logClass.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\spaceShipClass.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\spriteAnimationClass.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\birdClass.cpp">
+      <Filter>Source Files\Game\FirstLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\firstScreenState.cpp">
+      <Filter>Source Files\Game\FirstLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\fourthScreenState.cpp">
+      <Filter>Source Files\Game\FourthLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\friendSpaceShipClass.cpp">
+      <Filter>Source Files\Game\ThirdLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\fruitClass.cpp">
+      <Filter>Source Files\Game\FirstLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\picoFirstClass.cpp">
+      <Filter>Source Files\Game\FirstLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\picoFourthClass.cpp">
+      <Filter>Source Files\Game\FourthLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\picoSecondClass.cpp">
+      <Filter>Source Files\Game\SecondLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\picoThirdClass.cpp">
+      <Filter>Source Files\Game\ThirdLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\platformClass.cpp">
+      <Filter>Source Files\Game\FourthLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\pieceClass.cpp">
+      <Filter>Source Files\Game\SecondLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\secondScreenState.cpp">
+      <Filter>Source Files\Game\SecondLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\presentClass.cpp">
+      <Filter>Source Files\Game\FourthLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\soundFirstClass.cpp">
+      <Filter>Source Files\Game\FirstLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\soundFourthClass.cpp">
+      <Filter>Source Files\Game\FourthLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\soundSecondClass.cpp">
+      <Filter>Source Files\Game\SecondLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\soundThirdClass.cpp">
+      <Filter>Source Files\Game\ThirdLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\starClass.cpp">
+      <Filter>Source Files\Game\SecondLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\thirdScreenState.cpp">
+      <Filter>Source Files\Game\ThirdLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\toyClass.cpp">
+      <Filter>Source Files\Game\FourthLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\cameraClass.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\fontClass.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\graphicsmanager.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\imageClass.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\lightClass.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\textureArrayClass.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\textureClass.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\animatedCal3DModelClass.cpp">
+      <Filter>Source Files\Graphics\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Cal3DmodelClass.cpp">
+      <Filter>Source Files\Graphics\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\colorShader3D.cpp">
+      <Filter>Source Files\Graphics\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\diffuseShader3D.cpp">
+      <Filter>Source Files\Graphics\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\multitextureShader3D.cpp">
+      <Filter>Source Files\Graphics\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\OBJModelClass.cpp">
+      <Filter>Source Files\Graphics\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\pointlightDiffuseShader3D.cpp">
+      <Filter>Source Files\Graphics\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\shader2DClass.cpp">
+      <Filter>Source Files\Graphics\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\shader3DClass.cpp">
+      <Filter>Source Files\Graphics\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\modelClass.cpp">
+      <Filter>Source Files\Graphics\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\shader3DFactory.cpp">
+      <Filter>Source Files\Graphics\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\staticCal3DModelClass.cpp">
+      <Filter>Source Files\Graphics\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\GUIButton.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\GUIFrame.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\GUIManager.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\pointClass.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\vectorClass.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\clockClass.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\pugixml.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\textClass.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\introScreenState.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

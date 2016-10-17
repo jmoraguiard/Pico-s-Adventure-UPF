@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<pieces>
+	<piece>
+		<model>parte2</model>
+		<position x="1.25" y="1.3411e-007" z="-3.25" />
+		<final_position x="-4" y="2.1" z="-3.25" />
+		<scale x="0.38742" y="0.38742" z="0.38742" />
+		<rotation x="0" y="0" z="0" />
+		<collision>
+			<position x="0.0" y="0.2" z="0.0" />
+			<radius> 0.59 </radius>
+		</collision>
+	</piece>
+	<piece>
+		<model>parte1</model>
+		<position x="3" y="3.3" z="-2.75" />
+		<final_position x="-4" y="2.5" z="-3.25" />
+		<scale x="0.383546" y="0.383546" z="0.383546" />
+		<rotation x="0" y="0" z="0" />
+		<collision>
+			<position x="0.0" y="0.2" z="0.0" />
+			<radius> 0.59 </radius>
+		</collision>
+	</piece>
+	<piece>
+		<model>parte3</model>
+		<position x="-1.75" y="2.9" z="-2.75" />
+		<final_position x="-4" y="1.9" z="-3.25" />
+		<scale x="0.426163" y="0.426163" z="0.426163" />
+		<rotation x="0.785" y="0" z="0" />
+		<collision>
+			<position x="0.0" y="0.2" z="0.0" />
+			<radius> 0.59 </radius>
+		</collision>
+	</piece>
+	<piece>
+		<model>parte4</model>
+		<position x="0.75" y="4.1" z="-2.75" />
+		<final_position x="-4" y="1.6" z="-3.25" />
+		<scale x="0.426163" y="0.426163" z="0.426163" />
+		<rotation x="0" y="0" z="0" />
+		<collision>
+			<position x="0.0" y="0.2" z="0.0" />
+			<radius> 0.59 </radius>
+		</collision>
+	</piece>
+	<piece>
+		<model>parte5</model>
+		<position x="-2.5" y="4.5" z="-2.5" />
+		<final_position x="-4" y="1" z="-3.25" />
+		<scale x="0.430467" y="0.430467" z="0.430467" />
+		<rotation x="0" y="0" z="0" />
+		<collision>
+			<position x="0.0" y="0.2" z="0.0" />
+			<radius> 0.59 </radius>
+		</collision>
+	</piece>
+	<piece>
+		<model>parte6</model>
+		<position x="3.75" y="4.5" z="-2.75" />
+		<final_position x="-4" y="0.7" z="-3.25" />
+		<scale x="0.430467" y="0.430467" z="0.430467" />
+		<rotation x="0" y="0" z="0" />
+		<collision>
+			<position x="0.0" y="0.2" z="0.0" />
+			<radius> 0.59 </radius>
+		</collision>
+	</piece>
+	<piece>
+		<model>parte7</model>
+		<position x="0.5" y="3" z="-2.85" />
+		<final_position x="-4" y="0.5" z="-3.25" />
+		<scale x="0.426163" y="0.426163" z="0.426163" />
+		<rotation x="0.785" y="0" z="0" />
+		<collision>
+			<position x="0.0" y="0.2" z="0.0" />
+			<radius> 0.59 </radius>
+		</collision>
+	</piece>
+	<piece>
+		<model>parte8</model>
+		<position x="-0.75" y="4" z="-2.65" />
+		<final_position x="-4" y="0" z="-3.25" />
+		<scale x="0.478297" y="0.478297" z="0.478297" />
+		<rotation x="0" y="5.10509" z="0" />
+		<collision>
+			<position x="0.0" y="0.2" z="0.0" />
+			<radius> 0.59 </radius>
+		</collision>
+	</piece>
+	<piece>
+		<model>parte9</model>
+		<position x="-2.75" y="3.3" z="-2.75" />
+		<final_position x="-4" y="0.1" z="-3.25" />
+		<scale x="0.520865" y="0.520865" z="0.520865" />
+		<rotation x="0" y="0" z="0" />
+		<collision>
+			<position x="0.0" y="0.2" z="0.0" />
+			<radius> 0.59 </radius>
+		</collision>
+	</piece>
+	<piece>
+		<model>parte10</model>
+		<position x="1.75" y="3.4" z="-3" />
+		<final_position x="-4" y="0" z="-3.25" />
+		<scale x="0.426163" y="0.426163" z="0.426163" />
+		<rotation x="0" y="0.785" z="0" />
+		<collision>
+			<position x="0.0" y="0.2" z="0.0" />
+			<radius> 0.59 </radius>
+		</collision>
+	</piece>
+</pieces>
